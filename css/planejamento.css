@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: "Arial", Helvetica, sans-serif; 
+    max-width: 100%;     
+}
+
+
+/* empresa_planejamento.html */
+#cabecalho{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.button_planejmanento{
+    background: #376275;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 40%;
+    padding-right: 20px;
+    margin-bottom: 2%;
+}
+.button_planejmanento:hover{
+    margin-left: 37%;
+    font-size: 24px;
+    padding-right: 20px;
+}
+
+#conteudo_empresa_planejamento{
+    color: black; 
+    margin-bottom: 50px; 
+    padding-left: 10%;
+    display: flex;
+}
+.estilizacao_input_conteudo{
+    border: solid 1px #000000;
+    margin-top: 20px;
+    height: 10%;
+    margin-left: 1%;
+    margin-right: 2%;
+    border-radius: 10px 10px 10px 10px;
+}
+#table_empresa_planejamento{
+    color: rgb(255, 255, 255); 
+    width: 80%; 
+    padding-bottom: 40px; 
+    background-color: rgba(0, 0, 0, 0.685);
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 18px;
+}
+.color_empresa_planejamento{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.colorth_empresa_planejamento{
+    background-color: rgb(171, 192, 194);
+}
+.colorth_empresa_planejamento:hover{
+    font-size: 20px;
+    margin-top: 100%;
+}
+
+
+
+/* Header */
+.central_header {
+    display: flex;
+    flex-wrap: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    height: 150px;
+    padding: 20px 0;
+    
+}
+
+.menu {
+    width: 50%;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    
+}
+
+#bk{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
