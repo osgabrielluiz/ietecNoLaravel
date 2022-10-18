@@ -1,13 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
 
-.QS_header {
+body {
+    margin: 0;
+    color: black;
+    font-family: "Arial", Helvetica, sans-serif; 
+    max-width: 100%;     
+}
+
+/* Header */
+.central_header {
     display: flex;
     flex-wrap: 1100px;
     margin: 0 auto;
     padding: 0 2%;
 }
 
-.menu_QS {
+header {
+    height: 100px;
+    padding: 05px 0;
+    
+}
+
+.menu {
     width: 50%;
     padding-top: 30px;
     margin: 0 auto;
@@ -15,18 +35,16 @@
     align-items: center;
 }
 
-.menu_QS a {
-    color: black;
+.menu a{
+    color:black;
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
 }
 
-.menu_QS a:hover {
-    font-size: 20px;
-    animation: 2s;
-    padding: 2%;
-
+.menu a:hover{
+    text-decoration: underline;
+    
 }
 
 footer {
