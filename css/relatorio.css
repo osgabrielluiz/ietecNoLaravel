@@ -1,9 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 body {
-    background-color: #4c86af;
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: "Arial", Helvetica, sans-serif; 
+    max-width: 100%;     
 }
 
 #titulo_relatorio {
-    color: white;
+    color: black;
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 5%;
 }
 
 #principal_relatorio {
@@ -85,4 +100,39 @@ th {
     background-color: red;
     border-style: none;
     border-radius: 5px;
+}
+
+
+/* Header */
+.central_header {
+    display: flex;
+    flex-wrap: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    height: 150px;
+    padding: 20px 0;
+    
+}
+
+.menu {
+    width: 50%;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    
 }
