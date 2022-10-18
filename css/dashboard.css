@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: darkslateblue;
+    background-color: #547e9a;
 }
 
 /* Header */
@@ -77,7 +77,7 @@ header {
 }
 
 .GraphicBig {
-    width: 32%;
+    width: 30%;
     background-color: white;
     margin-left: 10px;
     margin: 0 auto;
@@ -92,8 +92,13 @@ header {
     border: 1px solid black;
     border-radius: 10px 0px 10px 0px;
     margin-top: 20px;
+    
 }
 
+.t1{
+   width: 10%; 
+   filter: saturate(0);
+}
 
 /* Header */
 .central_header {
